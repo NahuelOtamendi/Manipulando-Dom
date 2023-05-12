@@ -21,7 +21,6 @@ const createTask =  (evento) =>{
     // task.innerHTML = content; 
     task.appendChild(taskContent);
     list.appendChild(task);
-    
   }
 
 btn.addEventListener("click", createTask);
